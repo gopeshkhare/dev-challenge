@@ -1,0 +1,25 @@
+	for (var i in myObj)
+			arr.push([i,myObj[i]]);		
+		console.log(arr);
+		//var array=[];
+		for (var j in arr)
+			var key = arr[0][1];
+			var attr = [], objects = {} ;
+			var name = arr[0][1];
+			var currentBestBidPrice = arr[1][1];
+			var currentBestAskPrice = arr[2][1];
+			var lastChangeBidAmount = arr[6][1];
+			var lastChangeAskAmount = arr[5][1];
+			//attr.push(
+			
+			 var objects = {name:name, currentBestBidPrice:currentBestBidPrice,currentBestAskPrice:currentBestAskPrice,lastChangeBidAmount:lastChangeBidAmount,lastChangeAskAmount:lastChangeAskAmount};
+
+			var objects = {};
+
+  objects[j] = {name:name, currentBestBidPrice:currentBestBidPrice,currentBestAskPrice:currentBestAskPrice,lastChangeBidAmount:lastChangeBidAmount,lastChangeAskAmount:lastChangeAskAmount};
+ // array.push(objects[j]);
+  console.log(j+"    NO    "+objects[j]);
+  console.log(j+"    NO    "+objects[j].name);
+
+			
+		/*	var str=obj+'j'

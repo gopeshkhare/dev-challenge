@@ -1,0 +1,70 @@
+<html>
+<head>
+    <!--
+    This is the library that provides websocket streaming pub/sub
+    The dev serverver is serving the html and javascript, but it also provides updating fx data on /fx/prices.
+     -->
+    <script src="stomp.js"></script>
+    <script src="sparkline.js"></script>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- This is a description of what you should do for this task.  You can remove it for your answer -->   
+	
+	<br> 
+		<h1 id="demo">Task Solution</h1>
+	<br>
+	<table id="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Current Best Bid Price</th>
+				<th>Current Best Ask Price</th>
+				<th>Last Change Bid Amount</th>
+				<th>Last Change Ask Amount</th>
+				<th>Live Sparkline</th>
+			</tr>
+		</thead>
+		<!--
+		<tbody>
+			<tr>
+				<td id="name"></td>
+				<td id="bestBid">106.7297012204255</td>
+				<td id="bestAsk">107.25199883791178</td>
+				<td id="changeBid">-2.8769211401569663</td>
+				<td id="changeAsk">-4.862314256927661</td>
+				<td id="example-sparkline1"></td>
+			</tr>
+		</tbody> -->
+		
+	</table>
+
+
+<h1>High Level Flow Diagram</h1>
+
+<img src='..\FlowChart.jpg' style="margin-left:400px;" >
+
+<p>
+    Libraries/frameworks I would have liked to have used
+</p>
+
+	<ul>
+        <li>JQuery would have made Traversing the DOM better. It would have made table creation easier</li>
+        <li>Bootstrap Library to beutify the page easily and effectively</li>
+        <li>Angular Js could have been used for structuring the code better</li>
+    </ul>
+
+<footer>
+	<p style="margin-left:1100px;" >Name: Gopesh Khare</p>
+	<a style="margin-left:1100px;" href="mailto:gopesh_khare@infosys.com?Subject=Calrifications Needed" target="_top">Send Mail</a>
+
+<footer>
+
+<!-- Code you write in index.js and anything it depends on will be bundled into bundle.js and
+     is included here -->
+<script src="bundle.js"></script>
+
+</body>
+</html>

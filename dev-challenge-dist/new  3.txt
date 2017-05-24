@@ -1,0 +1,23 @@
+  var arr, body, tab, tr, td, tn, row, col;
+  
+  var obj={name:'gur',currentBid:'123'}
+  var obj2={name:'gop',currentBid:'321'}
+
+  arr = [obj,obj2,obj,obj2]
+  
+for(var x in arr){
+  tab = document.getElementById('table');
+
+    tr = document.createElement('tr');
+    	td = document.createElement('td');
+         tn = document.createTextNode(arr[x].name);
+		     	td.appendChild(tn);
+    			 tr.appendChild(td);
+   
+      tr = document.createElement('tr');
+    	td = document.createElement('td');
+         tn = document.createTextNode(arr[x].currentBid);
+		     	td.appendChild(tn);
+    			 tr.appendChild(td);
+           }
+           
